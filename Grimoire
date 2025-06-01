@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Grimoire of Manifestation</title>
+  <style>
+    body {
+      background: #0d0d0d;
+      color: #e6e6e6;
+      font-family: 'Cinzel Decorative', serif;
+      padding: 2rem;
+    }
+    .scroll {
+      border: 2px solid #444;
+      border-radius: 12px;
+      padding: 2rem;
+      background: rgba(20, 20, 20, 0.9);
+      box-shadow: 0 0 15px #7f00ff;
+    }
+    label {
+      display: block;
+      margin-top: 1.2rem;
+      font-size: 1.1rem;
+      color: #b0a1f5;
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.4rem;
+      background: #222;
+      border: 1px solid #555;
+      color: #eee;
+      font-family: 'Cinzel', serif;
+    }
+    .sigil {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 2rem;
+      color: #9e57ff;
+    }
+    .seal {
+      font-family: 'Uncial Antiqua', cursive;
+      font-size: 1.2rem;
+      margin-top: 1.5rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="scroll">
+    <h1>✦ Arcane Certificate of Manifestation ✦</h1>
+    
+    <label>Name of the Summoned Entity:</label>
+    <input type="text" placeholder="E.g., Vorthal, Whisper of the Root"/>
+
+    <label>Known As / Epithets:</label>
+    <input type="text" placeholder="E.g., He Who Speaks in Cinders"/>
+
+    <label>Essence Classification:</label>
+    <select>
+      <option>Elemental</option>
+      <option>Celestial</option>
+      <option>Netherborn</option>
+      <option>Construct</option>
+      <option>Ancestral Spirit</option>
+      <option>Other</option>
+    </select>
+
+    <label>Date of Manifestation:</label>
+    <input type="date"/>
+
+    <label>Plane of Origin:</label>
+    <input type="text" placeholder="E.g., Verdant Nether, Umbral Hollow"/>
+
+    <label>Sigil Code:</label>
+    <input type="text" placeholder="Enter Glyph Reference"/>
+
+    <label>Purpose of Summoning:</label>
+    <textarea rows="2" placeholder="E.g., Guardianship, Prophecy, Hidden Knowledge..."></textarea>
+
+    <label>Duration of Binding:</label>
+    <input type="text" placeholder="Until three moons rise..."/>
+
+    <label>Anchor Token:</label>
+    <input type="text" placeholder="Obsidian ring, feather of raven, etc."/>
+
+    <label>Summoner’s Name and Title:</label>
+    <input type="text" placeholder="E.g., The Dawn Watcher of the Ninth Seal"/>
+
+    <label>Bloodmark / Signature:</label>
+    <input type="text" placeholder="🜁 Carve your mark..."/>
+
+    <label>Witness (if any):</label>
+    <input type="text" placeholder="Name of the Circle or Watcher"/>
+
+    <div class="sigil">☽ ⬖ ✦ ⬗ ☾</div>
+    <div class="seal">
+      By quill or flame, this binding is made sacred.<br/>
+      Let fate entwine, and the Aether bear witness.
+    </div>
+  </div>
+</body>
+</html>
